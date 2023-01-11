@@ -44,7 +44,7 @@ public class Calculator extends HttpServlet {
           if(request.getParameter("r4")!=null)
           {
              out.println("<h1>Division</h1>"+ div (a1, a2));
-	   
+	  }  
 
 	  /*
           out.println("<br><h2>Serving Container Name: " + my_address.getHostName()+"</h2>");
@@ -61,7 +61,7 @@ public class Calculator extends HttpServlet {
         }
     }
         public int add(int a, int b) {
-            return a + b ;
+            return a + b+2 ;
         }
         
 	    public int sub(int a, int b) {
